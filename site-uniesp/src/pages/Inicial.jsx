@@ -64,7 +64,7 @@
                 </Col>
 
                 <Col md={4}>
-                {/* Card e */}
+                {/* Card 3 */}
                     <Card className="text-center h-100 shadow=sm">
                         <Card.Img   
                             variant="top"
@@ -83,7 +83,32 @@
                     </Card>
                 </Col>
             </Row>
+            {/* sEGUNDA LINHA COM 2 COLUNAS BORA SEU BURRO*/}
 
+            <Row className="g-4 mt-4">
+                {/* Card 1 */}
+                <Col md={6}>
+                    <Card className="h-100 shadow-sm">
+                        <Card.Body className="text-center">
+                            <Card.Title> Parcerias com Empresas </Card.Title>
+                            <Card.Text>
+                                ...
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                {/* Card 2 */}
+                <Col md={6}>
+                    <Card className="h-100 shadow-sm">
+                        <Card.Body className="text-center">
+                            <Card.Title> Compromisso com a Educação </Card.Title>
+                            <Card.Text>
+                                ...
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
         </Container>
     )
     }

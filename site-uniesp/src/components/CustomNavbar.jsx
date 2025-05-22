@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, NavbarCollapse, Nav } from 'react-bootstrap'
+import { Container, NavbarCollapse, Nav, Offcanvas } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { Navbar } from 'react-bootstrap'
 
@@ -32,6 +32,25 @@ const CustomNavbar = () => {
                   </NavbarCollapse>
             </Container>
         </Navbar>
+
+        {/* Menu lateral (Offcanvas) visível em telas pequenas ao clicar no hamburguer*/}
+
+        <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title> Menu </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav className="flex-column">
+              {/* Cada item de menu fecha o Offcanvas ao ser clicado */}
+
+              <Nav.Link as={Link} to="/a-faculdade" onClick={handleClose}> A faculdade </Nav.Link>
+                      <Nav.Link as={Link} to="/dpo-lgpd" onClick={handleClose}> DPO LGPD </Nav.Link>
+                      <Nav.Link as={Link} to="/noticias" onClick={handleClose}> Notícias </Nav.Link>
+                      <Nav.Link as={Link} to="/admin-noticias"onClick={handleClose}> Noticias do adm </Nav.Link>
+
+            </Nav>
+          </Offcanvas.Body>
+        </Offcanvas>
     </>
   )
 }

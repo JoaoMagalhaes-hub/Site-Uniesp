@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, Row, Col } from 'react-bootstrap'
+import { Container, Card, Row, Col } from 'React-bootstrap'
 
 
 const Faculdade = () => {

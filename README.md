@@ -20,6 +20,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **HTML5**: Para a estruturação do conteúdo da web.
 - **CSS3**: Para o design e layout das páginas.
 - **JavaScript**: Para adicionar interatividade e funcionalidades dinâmicas.
+- **React**: Biblioteca para a caracterização do front end
+- **Bootstrap**: Biblioteca para personalização e padronização de estruturas do front end
 
 Segundo as estatísticas do GitHub, a distribuição de linguagens no projeto é:
 

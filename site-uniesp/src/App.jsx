@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Container } from 'React-bootstrap'
+import { Container } from 'react-bootstrap'
 import Inicial from './pages/Inicial'
 import Navbar from './components/CustomNavbar'
 import Faculdade from './pages/Faculdade'

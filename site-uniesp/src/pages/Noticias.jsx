@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { Card, Col, Container, Row } from 'React-bootstrap'
+import { Card, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const Noticias = () => {
@@ -25,7 +25,7 @@ const Noticias = () => {
                     <Card className="h-100 shadow-sm ">
                         <Card.Img   
                             variant="top"
-                            src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Q-5rE-zBtKlSMXgWr3xGPMm3yxucfZJiPg&s"
                             alt="Imagem da Noticia"
                             style={{ objectFit: 'cover', height: '140 px'}}
                             />

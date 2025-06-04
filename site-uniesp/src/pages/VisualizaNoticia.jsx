@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
-import { Card, Container } from 'React-bootstrap'
+import { Card, Container } from 'react-bootstrap'
 
 const VisualizaNoticia = () => {
 

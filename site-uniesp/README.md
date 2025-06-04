@@ -1,12 +1,36 @@
-# React + Vite
+# Site-Uniesp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório foi criado como parte da disciplina ministrada pelo Prof. Kelson, com o objetivo de desenvolver um site institucional para a UNIESP.  
+O projeto visa aplicar conceitos fundamentais de desenvolvimento web, proporcionando uma experiência prática na criação de páginas estáticas utilizando tecnologias modernas.
 
-Currently, two official plugins are available:
+## 📁 Estrutura do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto está organizado da seguinte forma:
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `index.html`: Página principal do site, contendo a estrutura HTML.
+- `css/style.css`: Arquivo de estilos, responsável pela aparência do site.
+- `js/script.js`: Scripts JavaScript para interatividade e funcionalidades adicionais.
+- `img/`: Diretório contendo as imagens utilizadas no site.
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML5**: Para a estruturação do conteúdo da web.
+- **CSS3**: Para o design e layout das páginas.
+- **JavaScript**: Para adicionar interatividade e funcionalidades dinâmicas.
+
+Segundo as estatísticas do GitHub, a distribuição de linguagens no projeto é:
+
+- JavaScript: 98.4%
+- HTML: 1.6%
+
+## 🚀 Como Executar o Projeto
+
+Para visualizar o site localmente:
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/JoaoMagalhaes-hub/Site-Uniesp.git
